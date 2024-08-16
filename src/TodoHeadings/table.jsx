@@ -3,18 +3,16 @@ import BasicButtons from './editbutton';
 
 function Table({ data }) {
   return (
-    <table className="table table-bordered table-hover mt-4 " style={{borderColor: "rgb(0 0 0);"}}>
+    <table className="table table-bordered table-hover mt-4 " style={{borderColor: "rgb(0 0 0)"}}>
       <thead className="thead-dark">
         <tr>
-          <th scope="col" style={{backgroundColor:"rgb(0, 0, 0)",color:"rgb(255 255 255)"}}>#</th>
-          <th scope="col" >Team Member</th>
-          <th scope="col" style={{backgroundColor:"rgb(0 0 0)",color:"rgb(255 255 255)"}}>Time Given</th>
-          <th scope="col">Action</th>
-          <th scope="col" style={{backgroundColor:"rgb(0 0 0)",color:"rgb(255 255 255)"}}>Date</th>
-          <th scope="col">Edit</th>
-          <th scope="col" style={{backgroundColor:"rgb(0 0 0)",color:"rgb(255 255 255)"}}>Status</th>
-          
-        
+          <th scope="col" style={{width:60,backgroundColor:"rgb(0, 0, 0)",color:"rgb(255 255 255)"}}></th>
+          <th scope="col" style={{width:100 ,textAlign: 'center' ,backgroundColor:"rgb(0, 0, 0)",color:"rgb(255 255 255)"}} >Team Member</th>
+          <th scope="col" style={{width:100,textAlign: 'center' ,backgroundColor:"rgb(0 0 0)",color:"rgb(255 255 255)"}}>Time Given</th>
+          <th scope="col" style={{width:100,textAlign: 'center' ,backgroundColor:"rgb(0, 0, 0)",color:"rgb(255 255 255)"}}>Action</th>
+          <th scope="col" style={{width:100,textAlign: 'center' ,backgroundColor:"rgb(0 0 0)",color:"rgb(255 255 255)"}}>Date</th>
+          <th scope="col" style={{width:100,textAlign: 'center' , backgroundColor:"rgb(0, 0, 0)",color:"rgb(255 255 255)"}}>Edit</th>
+          <th scope="col"  style={{textAlign: 'center' , backgroundColor:"rgb(0 0 0)",color:"rgb(255 255 255)"}} >Status</th>
           
         </tr>
       </thead>
